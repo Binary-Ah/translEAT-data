@@ -1,0 +1,26 @@
+# UCSD Google Local raw data (multi-GB) and derived review dumps
+data/raw/
+data/processed/*.jsonl
+data/processed/*.jsonl.gz
+*.json.gz
+review-*.json*
+meta-*.json*
+la_restaurant_reviews*.jsonl
+la_restaurants_meta*.jsonl
+
+# Large derived tables (keep only small summaries intentionally added)
+*.parquet
+*.pkl
+*.feather
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
